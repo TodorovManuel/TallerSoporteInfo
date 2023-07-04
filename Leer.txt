@@ -1,0 +1,7 @@
+No encuentro el archivo de sql pero seria algo asi: 
+
+CREATE TABLE usuarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255),
+  mail VARCHAR(255)
+);
