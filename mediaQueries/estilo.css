@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 475px) {
+    div {
+        flex-direction: column;
+    }
+  }
+  
